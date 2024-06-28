@@ -1,0 +1,1661 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local NecomatorUIChange = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Panel = Instance.new("Frame")
+local Logo = Instance.new("ImageLabel")
+local SHButton = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local HomeButton = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ExecButton = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local STButton = Instance.new("TextButton")
+local Exec = Instance.new("Frame")
+local AI15done = Instance.new("Frame")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local NecomatorAI = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local ImageButton = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
+local Main_2 = Instance.new("TextBox")
+local Exec_2 = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local Clear = Instance.new("TextButton")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local Home = Instance.new("Frame")
+local AvaLogo = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Greeting = Instance.new("TextLabel")
+local UserId = Instance.new("TextLabel")
+local UAD = Instance.new("TextLabel")
+local AccountDate = Instance.new("TextLabel")
+local Thankssign = Instance.new("TextLabel")
+local OS = Instance.new("TextLabel")
+local Split = Instance.new("Frame")
+local Split_2 = Instance.new("Frame")
+local Split_3 = Instance.new("Frame")
+local OS_Date = Instance.new("TextLabel")
+local Dizzy = Instance.new("TextButton")
+local NecoTeam = Instance.new("TextLabel")
+local MrGreen = Instance.new("TextLabel")
+local MrGreenInfo = Instance.new("TextLabel")
+local Voxzy = Instance.new("TextLabel")
+local VoxzyInfo = Instance.new("TextLabel")
+local Settings = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local SpeedButton = Instance.new("ImageButton")
+local JumpButton = Instance.new("ImageButton")
+local JumpBox = Instance.new("TextBox")
+local SpeedBox = Instance.new("TextBox")
+local TextLabel_3 = Instance.new("TextLabel")
+local ESPButton = Instance.new("TextButton")
+local Toggle = Instance.new("TextButton")
+local NecoConsole = Instance.new("TextButton")
+local Scripthub = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Loading50284734 = Instance.new("Frame")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local Loading435234583 = Instance.new("Frame")
+local Panel_2 = Instance.new("Frame")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local LoadingBar = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Loading = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local ImageLabel_9 = Instance.new("ImageLabel")
+local Startbro = Instance.new("TextButton")
+
+--Properties:
+
+NecomatorUIChange.Name = "NecomatorUIChange"
+NecomatorUIChange.Parent = game.CoreGui
+NecomatorUIChange.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+NecomatorUIChange.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = NecomatorUIChange
+Main.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+Main.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Main.Position = UDim2.new(0.287020147, 0, 0.321830273, 0)
+Main.Size = UDim2.new(0, 699, 0, 345)
+Main.Visible = false
+
+Panel.Name = "Panel"
+Panel.Parent = Main
+Panel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Panel.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Panel.Size = UDim2.new(0, 699, 0, 41)
+
+Logo.Name = "Logo"
+Logo.Parent = Panel
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BorderSizePixel = 0
+Logo.Size = UDim2.new(0, 41, 0, 41)
+Logo.Image = "rbxassetid://17774105592"
+
+SHButton.Name = "SHButton"
+SHButton.Parent = Panel
+SHButton.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+SHButton.BackgroundTransparency = 0.300
+SHButton.BorderColor3 = Color3.fromRGB(0, 95, 5)
+SHButton.BorderSizePixel = 2
+SHButton.Position = UDim2.new(0.842648029, 0, 0.124902494, 0)
+SHButton.Size = UDim2.new(0, 104, 0, 30)
+SHButton.Font = Enum.Font.FredokaOne
+SHButton.Text = "ScriptHub"
+SHButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SHButton.TextSize = 18.000
+SHButton.TextWrapped = true
+SHButton.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel.Parent = SHButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 1, 0, 1)
+ImageLabel.Size = UDim2.new(0, 29, 0, 29)
+ImageLabel.Image = "rbxassetid://17473918604"
+
+TextLabel.Parent = Panel
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 47, 0, 6)
+TextLabel.Size = UDim2.new(0, 319, 0, 27)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Necomator : 1.0 Full Release"
+TextLabel.TextColor3 = Color3.fromRGB(5, 95, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = Panel
+HomeButton.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+HomeButton.BackgroundTransparency = 0.300
+HomeButton.BorderColor3 = Color3.fromRGB(0, 95, 5)
+HomeButton.BorderSizePixel = 2
+HomeButton.Position = UDim2.new(0.726768196, 0, 0.14485094, 0)
+HomeButton.Size = UDim2.new(0, 75, 0, 30)
+HomeButton.Font = Enum.Font.FredokaOne
+HomeButton.Text = "Home"
+HomeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomeButton.TextSize = 18.000
+HomeButton.TextWrapped = true
+HomeButton.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel_2.Parent = HomeButton
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0, 1, 0, 1)
+ImageLabel_2.Size = UDim2.new(0, 29, 0, 29)
+ImageLabel_2.Image = "rbxassetid://17446163535"
+
+ExecButton.Name = "ExecButton"
+ExecButton.Parent = Panel
+ExecButton.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+ExecButton.BackgroundTransparency = 0.300
+ExecButton.BorderColor3 = Color3.fromRGB(0, 95, 5)
+ExecButton.BorderSizePixel = 2
+ExecButton.Position = UDim2.new(0.672999978, 0, 0.144999996, 0)
+ExecButton.Size = UDim2.new(0, 32, 0, 30)
+ExecButton.Font = Enum.Font.FredokaOne
+ExecButton.Text = ""
+ExecButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExecButton.TextSize = 18.000
+ExecButton.TextWrapped = true
+ExecButton.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel_3.Parent = ExecButton
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0, 1, 0, -1)
+ImageLabel_3.Size = UDim2.new(0, 29, 0, 29)
+ImageLabel_3.Image = "rbxassetid://17444432551"
+
+STButton.Name = "STButton"
+STButton.Parent = Panel
+STButton.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+STButton.BackgroundTransparency = 0.300
+STButton.BorderColor3 = Color3.fromRGB(0, 95, 5)
+STButton.BorderSizePixel = 2
+STButton.Position = UDim2.new(0.620000005, 0, 0.144999996, 0)
+STButton.Size = UDim2.new(0, 31, 0, 30)
+STButton.Font = Enum.Font.FredokaOne
+STButton.Text = "ST"
+STButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+STButton.TextScaled = true
+STButton.TextSize = 18.000
+STButton.TextWrapped = true
+
+Exec.Name = "Exec"
+Exec.Parent = Main
+Exec.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exec.BackgroundTransparency = 1.000
+Exec.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exec.BorderSizePixel = 0
+Exec.Position = UDim2.new(0, 0, 0.118840665, 0)
+Exec.Size = UDim2.new(0, 699, 0, 302)
+
+AI15done.Name = "AI(15% done)"
+AI15done.Parent = Exec
+AI15done.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+AI15done.BackgroundTransparency = 1.000
+AI15done.BorderColor3 = Color3.fromRGB(0, 95, 5)
+AI15done.Position = UDim2.new(0, -3, -2.02103166e-07, 0)
+AI15done.Size = UDim2.new(0, 196, 0, 302)
+
+ImageLabel_4.Parent = AI15done
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 95, 5)
+ImageLabel_4.Position = UDim2.new(0.0143560292, 0, -0.000169968756, 0)
+ImageLabel_4.Rotation = 180.000
+ImageLabel_4.Size = UDim2.new(0, 193, 0, 302)
+ImageLabel_4.Image = "rbxassetid://17774329780"
+
+TextLabel_2.Parent = AI15done
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 16, 0, 52)
+TextLabel_2.Size = UDim2.new(0, 166, 0, 53)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "Hello its me NecomatorAI, ask me anything you like to"
+TextLabel_2.TextColor3 = Color3.fromRGB(5, 95, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner.Parent = TextLabel_2
+
+NecomatorAI.Name = "NecomatorAI"
+NecomatorAI.Parent = AI15done
+NecomatorAI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NecomatorAI.BackgroundTransparency = 1.000
+NecomatorAI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NecomatorAI.BorderSizePixel = 0
+NecomatorAI.Position = UDim2.new(0, 7, 0, 6)
+NecomatorAI.Size = UDim2.new(0, 184, 0, 40)
+NecomatorAI.Font = Enum.Font.FredokaOne
+NecomatorAI.Text = "NecomatorAI"
+NecomatorAI.TextColor3 = Color3.fromRGB(5, 95, 0)
+NecomatorAI.TextScaled = true
+NecomatorAI.TextSize = 14.000
+NecomatorAI.TextWrapped = true
+NecomatorAI.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox.Parent = AI15done
+TextBox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0, 3, 0, 261)
+TextBox.Size = UDim2.new(0, 145, 0, 39)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.FredokaOne
+TextBox.MultiLine = true
+TextBox.Text = "Hello!"
+TextBox.TextColor3 = Color3.fromRGB(5, 95, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_2.Parent = TextBox
+
+ImageButton.Parent = AI15done
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 0.940
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0, 152, 0, 262)
+ImageButton.Size = UDim2.new(0, 39, 0, 39)
+ImageButton.Image = "rbxassetid://17444624877"
+
+UICorner_3.Parent = ImageButton
+
+Main_2.Name = "Main"
+Main_2.Parent = Exec
+Main_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main_2.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Main_2.Position = UDim2.new(0.288946718, 0, 0.023236407, 0)
+Main_2.Size = UDim2.new(0, 492, 0, 247)
+Main_2.ClearTextOnFocus = false
+Main_2.Font = Enum.Font.Highway
+Main_2.MultiLine = true
+Main_2.Text = "--Necomator Exec\\n--UI Updated\\n--Added Whitelist system (will be updated soon)\\n--AI still aint done\\n--GO WATCH RECEP IVEDIK RQ!!\\n"
+Main_2.TextColor3 = Color3.fromRGB(0, 95, 5)
+Main_2.TextSize = 19.000
+Main_2.TextWrapped = true
+Main_2.TextXAlignment = Enum.TextXAlignment.Left
+Main_2.TextYAlignment = Enum.TextYAlignment.Top
+
+Exec_2.Name = "Exec"
+Exec_2.Parent = Exec
+Exec_2.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+Exec_2.BackgroundTransparency = 0.300
+Exec_2.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Exec_2.BorderSizePixel = 2
+Exec_2.Position = UDim2.new(0.289000005, 0, 0.880999982, 0)
+Exec_2.Size = UDim2.new(0, 104, 0, 30)
+Exec_2.Font = Enum.Font.FredokaOne
+Exec_2.Text = "Execute"
+Exec_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exec_2.TextSize = 22.000
+Exec_2.TextWrapped = true
+Exec_2.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel_5.Parent = Exec_2
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0, 1, 0, 1)
+ImageLabel_5.Size = UDim2.new(0, 29, 0, 29)
+ImageLabel_5.Image = "rbxassetid://17774133441"
+
+Clear.Name = "Clear"
+Clear.Parent = Exec
+Clear.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+Clear.BackgroundTransparency = 0.300
+Clear.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Clear.BorderSizePixel = 2
+Clear.Position = UDim2.new(0.455674946, 0, 0.881159306, 0)
+Clear.Size = UDim2.new(0, 88, 0, 29)
+Clear.Font = Enum.Font.FredokaOne
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clear.TextSize = 24.000
+Clear.TextWrapped = true
+Clear.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel_6.Parent = Clear
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0, 1, 0, 1)
+ImageLabel_6.Size = UDim2.new(0, 35, 0, 29)
+ImageLabel_6.Image = "rbxassetid://17774143008"
+
+Home.Name = "Home"
+Home.Parent = Main
+Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Home.BackgroundTransparency = 1.000
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0, 0, 0.118840665, 0)
+Home.Size = UDim2.new(0, 699, 0, 302)
+Home.Visible = false
+
+AvaLogo.Name = "AvaLogo"
+AvaLogo.Parent = Home
+AvaLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AvaLogo.BackgroundTransparency = 1.000
+AvaLogo.BorderColor3 = Color3.fromRGB(0, 95, 5)
+AvaLogo.Position = UDim2.new(0, 18, 0, 5)
+AvaLogo.Size = UDim2.new(0, 124, 0, 124)
+AvaLogo.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = AvaLogo
+
+Greeting.Name = "Greeting"
+Greeting.Parent = Home
+Greeting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Greeting.BackgroundTransparency = 1.000
+Greeting.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Greeting.BorderSizePixel = 0
+Greeting.Position = UDim2.new(0, 150, 0, 38)
+Greeting.Size = UDim2.new(0, 304, 0, 91)
+Greeting.Font = Enum.Font.FredokaOne
+Greeting.Text = ""
+Greeting.TextColor3 = Color3.fromRGB(5, 95, 0)
+Greeting.TextScaled = true
+Greeting.TextSize = 14.000
+Greeting.TextWrapped = true
+
+UserId.Name = "UserId"
+UserId.Parent = Home
+UserId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UserId.BackgroundTransparency = 1.000
+UserId.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UserId.BorderSizePixel = 0
+UserId.Position = UDim2.new(0, 148, 0, 0)
+UserId.Size = UDim2.new(0, 251, 0, 31)
+UserId.Font = Enum.Font.FredokaOne
+UserId.Text = ""
+UserId.TextColor3 = Color3.fromRGB(5, 95, 0)
+UserId.TextScaled = true
+UserId.TextSize = 14.000
+UserId.TextWrapped = true
+
+UAD.Name = "UAD"
+UAD.Parent = Home
+UAD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UAD.BackgroundTransparency = 1.000
+UAD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UAD.BorderSizePixel = 0
+UAD.Position = UDim2.new(0, 461, 0, 129)
+UAD.Size = UDim2.new(0, 225, 0, 42)
+UAD.Font = Enum.Font.FredokaOne
+UAD.Text = "User Account Age"
+UAD.TextColor3 = Color3.fromRGB(5, 95, 0)
+UAD.TextScaled = true
+UAD.TextSize = 14.000
+UAD.TextWrapped = true
+
+AccountDate.Name = "Account Date"
+AccountDate.Parent = Home
+AccountDate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AccountDate.BackgroundTransparency = 1.000
+AccountDate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AccountDate.BorderSizePixel = 0
+AccountDate.Position = UDim2.new(0, 454, 0, 180)
+AccountDate.Size = UDim2.new(0, 238, 0, 83)
+AccountDate.Font = Enum.Font.FredokaOne
+AccountDate.Text = "User Account Date"
+AccountDate.TextColor3 = Color3.fromRGB(5, 95, 0)
+AccountDate.TextScaled = true
+AccountDate.TextSize = 14.000
+AccountDate.TextWrapped = true
+
+Thankssign.Name = "Thanks sign"
+Thankssign.Parent = Home
+Thankssign.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Thankssign.BackgroundTransparency = 1.000
+Thankssign.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Thankssign.BorderSizePixel = 0
+Thankssign.Position = UDim2.new(0, 192, 0, 266)
+Thankssign.Size = UDim2.new(0, 501, 0, 36)
+Thankssign.Font = Enum.Font.FredokaOne
+Thankssign.Text = ""
+Thankssign.TextColor3 = Color3.fromRGB(5, 95, 0)
+Thankssign.TextScaled = true
+Thankssign.TextSize = 14.000
+Thankssign.TextWrapped = true
+
+OS.Name = "OS"
+OS.Parent = Home
+OS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OS.BackgroundTransparency = 1.000
+OS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OS.BorderSizePixel = 0
+OS.Position = UDim2.new(0, 205, 0, 129)
+OS.Size = UDim2.new(0, 225, 0, 42)
+OS.Font = Enum.Font.FredokaOne
+OS.Text = "OS date and time"
+OS.TextColor3 = Color3.fromRGB(5, 95, 0)
+OS.TextScaled = true
+OS.TextSize = 14.000
+OS.TextWrapped = true
+
+Split.Name = "Split"
+Split.Parent = Home
+Split.BackgroundColor3 = Color3.fromRGB(0, 95, 5)
+Split.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Split.BorderSizePixel = 0
+Split.Position = UDim2.new(0.274098486, 0, 0.430463076, 0)
+Split.Size = UDim2.new(0, -3, 0, 174)
+
+Split_2.Name = "Split"
+Split_2.Parent = Home
+Split_2.BackgroundColor3 = Color3.fromRGB(0, 95, 5)
+Split_2.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Split_2.BorderSizePixel = 0
+Split_2.Position = UDim2.new(0, 0, 0.430463582, 0)
+Split_2.Size = UDim2.new(0, 698, 0, 3)
+
+Split_3.Name = "Split"
+Split_3.Parent = Home
+Split_3.BackgroundColor3 = Color3.fromRGB(0, 95, 5)
+Split_3.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Split_3.BorderSizePixel = 0
+Split_3.Position = UDim2.new(0.274098486, 0, 0.854484379, 0)
+Split_3.Size = UDim2.new(0, 507, 0, 3)
+
+OS_Date.Name = "OS_Date"
+OS_Date.Parent = Home
+OS_Date.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OS_Date.BackgroundTransparency = 1.000
+OS_Date.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OS_Date.BorderSizePixel = 0
+OS_Date.Position = UDim2.new(0, 191, 0, 178)
+OS_Date.Size = UDim2.new(0, 238, 0, 83)
+OS_Date.Font = Enum.Font.FredokaOne
+OS_Date.Text = "OS date and time"
+OS_Date.TextColor3 = Color3.fromRGB(5, 95, 0)
+OS_Date.TextScaled = true
+OS_Date.TextSize = 14.000
+OS_Date.TextWrapped = true
+
+Dizzy.Name = "Dizzy"
+Dizzy.Parent = Home
+Dizzy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dizzy.BackgroundTransparency = 1.000
+Dizzy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dizzy.BorderSizePixel = 0
+Dizzy.Position = UDim2.new(-0.000608954462, 0, 0.916417122, 0)
+Dizzy.Size = UDim2.new(0, 189, 0, 27)
+Dizzy.Font = Enum.Font.FredokaOne
+Dizzy.Text = "https://discord.gg/XDvE5wGHaU"
+Dizzy.TextColor3 = Color3.fromRGB(0, 95, 5)
+Dizzy.TextScaled = true
+Dizzy.TextSize = 14.000
+Dizzy.TextWrapped = true
+
+NecoTeam.Name = "NecoTeam"
+NecoTeam.Parent = Home
+NecoTeam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NecoTeam.BackgroundTransparency = 1.000
+NecoTeam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NecoTeam.BorderSizePixel = 0
+NecoTeam.Position = UDim2.new(0, -1, 0, 133)
+NecoTeam.Size = UDim2.new(0, 189, 0, 23)
+NecoTeam.Font = Enum.Font.FredokaOne
+NecoTeam.Text = "NecoTeam"
+NecoTeam.TextColor3 = Color3.fromRGB(5, 95, 0)
+NecoTeam.TextScaled = true
+NecoTeam.TextSize = 14.000
+NecoTeam.TextWrapped = true
+
+MrGreen.Name = "Mr.Green"
+MrGreen.Parent = Home
+MrGreen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MrGreen.BackgroundTransparency = 1.000
+MrGreen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MrGreen.BorderSizePixel = 0
+MrGreen.Position = UDim2.new(0, -1, 0, 155)
+MrGreen.Size = UDim2.new(0, 102, 0, 49)
+MrGreen.Font = Enum.Font.FredokaOne
+MrGreen.Text = "Mr. Green"
+MrGreen.TextColor3 = Color3.fromRGB(5, 95, 0)
+MrGreen.TextScaled = true
+MrGreen.TextSize = 14.000
+MrGreen.TextWrapped = true
+
+MrGreenInfo.Name = "Mr.GreenInfo"
+MrGreenInfo.Parent = Home
+MrGreenInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MrGreenInfo.BackgroundTransparency = 1.000
+MrGreenInfo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MrGreenInfo.BorderSizePixel = 0
+MrGreenInfo.Position = UDim2.new(0, 103, 0, 157)
+MrGreenInfo.Size = UDim2.new(0, 85, 0, 47)
+MrGreenInfo.Font = Enum.Font.FredokaOne
+MrGreenInfo.Text = "MainDev & Founder & Owner"
+MrGreenInfo.TextColor3 = Color3.fromRGB(5, 95, 0)
+MrGreenInfo.TextScaled = true
+MrGreenInfo.TextSize = 14.000
+MrGreenInfo.TextWrapped = true
+
+Voxzy.Name = "Voxzy"
+Voxzy.Parent = Home
+Voxzy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Voxzy.BackgroundTransparency = 1.000
+Voxzy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Voxzy.BorderSizePixel = 0
+Voxzy.Position = UDim2.new(0, -1, 0, 203)
+Voxzy.Size = UDim2.new(0, 102, 0, 37)
+Voxzy.Font = Enum.Font.FredokaOne
+Voxzy.Text = "Voxzy"
+Voxzy.TextColor3 = Color3.fromRGB(5, 95, 0)
+Voxzy.TextScaled = true
+Voxzy.TextSize = 14.000
+Voxzy.TextWrapped = true
+
+VoxzyInfo.Name = "VoxzyInfo"
+VoxzyInfo.Parent = Home
+VoxzyInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VoxzyInfo.BackgroundTransparency = 1.000
+VoxzyInfo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VoxzyInfo.BorderSizePixel = 0
+VoxzyInfo.Position = UDim2.new(0, 103, 0, 205)
+VoxzyInfo.Size = UDim2.new(0, 85, 0, 35)
+VoxzyInfo.Font = Enum.Font.FredokaOne
+VoxzyInfo.Text = "Co-MainDev"
+VoxzyInfo.TextColor3 = Color3.fromRGB(5, 95, 0)
+VoxzyInfo.TextScaled = true
+VoxzyInfo.TextSize = 14.000
+VoxzyInfo.TextWrapped = true
+
+Settings.Name = "Settings"
+Settings.Parent = Main
+Settings.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Settings.BackgroundTransparency = 1.000
+Settings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(-0.000938666577, 0, 0.118840583, 0)
+Settings.Size = UDim2.new(1.00093865, 0, 0.881159425, 0)
+Settings.Visible = false
+
+UICorner_5.Parent = Settings
+
+SpeedButton.Name = "SpeedButton"
+SpeedButton.Parent = Settings
+SpeedButton.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+SpeedButton.BackgroundTransparency = 0.300
+SpeedButton.BorderColor3 = Color3.fromRGB(0, 95, 5)
+SpeedButton.BorderSizePixel = 2
+SpeedButton.Position = UDim2.new(0.915690541, 0, 0.1355986, 0)
+SpeedButton.Size = UDim2.new(0, 43, 0, 43)
+SpeedButton.Image = "rbxassetid://17444624877"
+
+JumpButton.Name = "JumpButton"
+JumpButton.Parent = Settings
+JumpButton.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+JumpButton.BackgroundTransparency = 0.300
+JumpButton.BorderColor3 = Color3.fromRGB(0, 95, 5)
+JumpButton.BorderSizePixel = 2
+JumpButton.Position = UDim2.new(0.468822479, 0, 0.13559863, 0)
+JumpButton.Size = UDim2.new(0, 43, 0, 43)
+JumpButton.Image = "rbxassetid://17444624877"
+
+JumpBox.Name = "JumpBox"
+JumpBox.Parent = Settings
+JumpBox.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+JumpBox.BackgroundTransparency = 0.300
+JumpBox.BorderColor3 = Color3.fromRGB(0, 95, 5)
+JumpBox.BorderSizePixel = 2
+JumpBox.Position = UDim2.new(0.0210994501, 0, 0.13559863, 0)
+JumpBox.Size = UDim2.new(0, 304, 0, 43)
+JumpBox.Font = Enum.Font.FredokaOne
+JumpBox.Text = ""
+JumpBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpBox.TextScaled = true
+JumpBox.TextSize = 14.000
+JumpBox.TextWrapped = true
+JumpBox.TextXAlignment = Enum.TextXAlignment.Left
+
+SpeedBox.Name = "SpeedBox"
+SpeedBox.Parent = Settings
+SpeedBox.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+SpeedBox.BackgroundTransparency = 0.300
+SpeedBox.BorderColor3 = Color3.fromRGB(0, 95, 5)
+SpeedBox.BorderSizePixel = 2
+SpeedBox.Position = UDim2.new(0.539676547, 0, 0.13559863, 0)
+SpeedBox.Size = UDim2.new(0, 257, 0, 43)
+SpeedBox.Font = Enum.Font.FredokaOne
+SpeedBox.Text = ""
+SpeedBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedBox.TextScaled = true
+SpeedBox.TextSize = 14.000
+SpeedBox.TextWrapped = true
+SpeedBox.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_3.Parent = Settings
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.293600053, 0, -0.000836723717, 0)
+TextLabel_3.Size = UDim2.new(0, 287, 0, 41)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "WS/JP Changer"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 95, 5)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+ESPButton.Name = "ESPButton"
+ESPButton.Parent = Settings
+ESPButton.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+ESPButton.BackgroundTransparency = 0.300
+ESPButton.BorderColor3 = Color3.fromRGB(0, 95, 5)
+ESPButton.BorderSizePixel = 2
+ESPButton.Position = UDim2.new(0.0104956171, 0, 0.370611578, 0)
+ESPButton.Size = UDim2.new(0, 225, 0, 64)
+ESPButton.Font = Enum.Font.FredokaOne
+ESPButton.Text = "Built-in ESP"
+ESPButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPButton.TextScaled = true
+ESPButton.TextSize = 14.000
+ESPButton.TextWrapped = true
+
+Toggle.Name = "Toggle"
+Toggle.Parent = Settings
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+Toggle.BackgroundTransparency = 0.300
+Toggle.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Toggle.BorderSizePixel = 2
+Toggle.Position = UDim2.new(0.666960597, 0, 0.370611578, 0)
+Toggle.Size = UDim2.new(0, 227, 0, 64)
+Toggle.Font = Enum.Font.FredokaOne
+Toggle.Text = "Aimbot = Off"
+Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.TextScaled = true
+Toggle.TextSize = 14.000
+Toggle.TextWrapped = true
+
+NecoConsole.Name = "Neco-Console"
+NecoConsole.Parent = Settings
+NecoConsole.BackgroundColor3 = Color3.fromRGB(0, 153, 8)
+NecoConsole.BackgroundTransparency = 0.300
+NecoConsole.BorderColor3 = Color3.fromRGB(0, 95, 5)
+NecoConsole.BorderSizePixel = 2
+NecoConsole.Position = UDim2.new(0.353845865, 0, 0.370611578, 0)
+NecoConsole.Size = UDim2.new(0, 204, 0, 64)
+NecoConsole.Font = Enum.Font.FredokaOne
+NecoConsole.Text = "Neco-Console"
+NecoConsole.TextColor3 = Color3.fromRGB(0, 0, 0)
+NecoConsole.TextScaled = true
+NecoConsole.TextSize = 14.000
+NecoConsole.TextWrapped = true
+
+Scripthub.Name = "Scripthub"
+Scripthub.Parent = Main
+Scripthub.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Scripthub.BackgroundTransparency = 1.000
+Scripthub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripthub.BorderSizePixel = 0
+Scripthub.Position = UDim2.new(-0.000938666577, 0, 0.118840583, 0)
+Scripthub.Size = UDim2.new(1.00093865, 0, 0.881159425, 0)
+Scripthub.Visible = false
+
+UICorner_6.Parent = Scripthub
+
+Loading50284734.Name = "Loading50284734"
+Loading50284734.Parent = NecomatorUIChange
+Loading50284734.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Loading50284734.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loading50284734.BorderSizePixel = 0
+Loading50284734.Position = UDim2.new(0.418037772, 0, 0.298342556, 0)
+Loading50284734.Size = UDim2.new(0, 268, 0, 0)
+
+ImageLabel_7.Parent = Loading50284734
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0.0970149264, 0, 0.0930232555, 0)
+ImageLabel_7.Size = UDim2.new(0, 217, 0, 210)
+ImageLabel_7.Image = "http://www.roblox.com/asset/?id=17744810473"
+ImageLabel_7.ImageTransparency = 1.000
+
+Loading435234583.Name = "Loading435234583"
+Loading435234583.Parent = NecomatorUIChange
+Loading435234583.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+Loading435234583.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Loading435234583.Position = UDim2.new(0.287020117, 0, 0.308287293, 0)
+Loading435234583.Size = UDim2.new(0, 698, 0, 344)
+Loading435234583.Visible = false
+
+Panel_2.Name = "Panel"
+Panel_2.Parent = Loading435234583
+Panel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Panel_2.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Panel_2.Size = UDim2.new(0, 698, 0, 37)
+
+ImageLabel_8.Parent = Panel_2
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.BackgroundTransparency = 1.000
+ImageLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_8.BorderSizePixel = 0
+ImageLabel_8.Size = UDim2.new(0, 39, 0, 37)
+ImageLabel_8.Image = "rbxassetid://17774105592"
+
+TextLabel_4.Parent = Panel_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 39, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 319, 0, 37)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "Necomator Loader"
+TextLabel_4.TextColor3 = Color3.fromRGB(5, 95, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+LoadingBar.Name = "LoadingBar"
+LoadingBar.Parent = Loading435234583
+LoadingBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LoadingBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadingBar.BorderSizePixel = 0
+LoadingBar.Position = UDim2.new(0, 100, 0.726707995, 0)
+LoadingBar.Size = UDim2.new(0, 517, 0, 0)
+
+UICorner_7.Parent = LoadingBar
+
+Loading.Name = "Loading"
+Loading.Parent = LoadingBar
+Loading.BackgroundColor3 = Color3.fromRGB(0, 95, 5)
+Loading.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loading.BorderSizePixel = 0
+Loading.Position = UDim2.new(0.0128990775, 0, 0, 0)
+Loading.Size = UDim2.new(0, 0, 0, 33)
+
+UICorner_8.Parent = Loading
+
+ImageLabel_9.Parent = Loading435234583
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_9.BorderSizePixel = 0
+ImageLabel_9.Position = UDim2.new(0.396726578, 0, 0.228820622, 0)
+ImageLabel_9.Size = UDim2.new(0, 144, 0, 130)
+ImageLabel_9.Image = "rbxassetid://17774105592"
+ImageLabel_9.ImageTransparency = 1.000
+
+Startbro.Name = "Startbro"
+Startbro.Parent = Loading435234583
+Startbro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Startbro.BorderColor3 = Color3.fromRGB(0, 95, 5)
+Startbro.Position = UDim2.new(-0.0730658993, 300, 0.677217364, 0)
+Startbro.Size = UDim2.new(0, 200, 0, 50)
+Startbro.Font = Enum.Font.FredokaOne
+Startbro.Text = "Start"
+Startbro.TextColor3 = Color3.fromRGB(0, 95, 5)
+Startbro.TextScaled = true
+Startbro.TextSize = 14.000
+Startbro.TextWrapped = true
+
+-- Scripts:
+
+local function XMMS_fake_script() -- SHButton.LocalScript 
+	local script = Instance.new('LocalScript', SHButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Exec.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Scripthub.Visible = true
+		script.Parent.Parent.Parent.Settings.Visible = false
+	end)
+	
+end
+coroutine.wrap(XMMS_fake_script)()
+local function MVUS_fake_script() -- HomeButton.LocalScript 
+	local script = Instance.new('LocalScript', HomeButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Exec.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = true
+		script.Parent.Parent.Parent.Scripthub.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = false
+	end)
+	
+end
+coroutine.wrap(MVUS_fake_script)()
+local function LNRHYOY_fake_script() -- ExecButton.LocalScript 
+	local script = Instance.new('LocalScript', ExecButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Exec.Visible = true
+		script.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Scripthub.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = false
+	end)
+	
+end
+coroutine.wrap(LNRHYOY_fake_script)()
+local function HPEUYHJ_fake_script() -- STButton.LocalScript 
+	local script = Instance.new('LocalScript', STButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Exec.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Scripthub.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = true
+	end)
+	
+end
+coroutine.wrap(HPEUYHJ_fake_script)()
+local function HTEIZG_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "what happened to skibidi toilet executor?" or
+		 script.Parent.Parent.TextBox.Text == "what happened to the skibidi toilet executor?" or
+			script.Parent.Parent.TextBox.Text == "why did skibidi toilet executor change into necomator?" then
+			script.Parent.Parent.TextLabel.Text = "unfortunately the owner of the script found out theres another script named after the word skibid so he didnt wanted to get sued and he changed it into Necomator, basically dead :O"
+			wait(12)
+			script.Parent.Parent.TextLabel.Text = ""
+	    end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "where is the script hub?" or
+			script.Parent.Parent.TextBox.Text == "how can i find the script hub?" or
+			script.Parent.Parent.TextBox.Text == "tell me where the script hub is" then
+			script.Parent.Parent.TextLabel.Text = "It's on the menu, that paper looking button, click that and you'll see it"
+			wait(5)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local m = math.random(1,4)
+		if script.Parent.Parent.TextBox.Text == "what is the key?" or
+			script.Parent.Parent.TextBox.Text == "can i know the key?" or
+			script.Parent.Parent.TextBox.Text == "how do i get the key" then
+			if m == 1 then
+				script.Parent.Parent.TextLabel.Text = "do the linkvertise- wait how u using me if you dont know the key?"
+			end
+			if m == 2 then
+				script.Parent.Parent.TextLabel.Text = "bro what the hell do you mean"
+			end
+			if m == 3 then
+				script.Parent.Parent.TextLabel.Text = "bro what the fuck do you mean...?"
+			end
+			if m == 4 then
+				script.Parent.Parent.TextLabel.Text = "naw nigga u gay"
+			end
+			wait(7)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "any aimbot scripts?" or
+			script.Parent.Parent.TextBox.Text == "can you give me a aimbot script?" or
+			script.Parent.Parent.TextBox.Text == "i need an aimbot script" then
+			script.Parent.Parent.TextLabel.Text = "i got air hub, lemme execute it rn"
+			wait(4)
+			script.Parent.Parent.TextLabel.Text = "Loading Airhub..."
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = "Airhub should be loaded now!"
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "skibidi" or
+			script.Parent.Parent.TextBox.Text == "skibidi toilet" or
+			script.Parent.Parent.TextBox.Text == "gyatt" or
+			script.Parent.Parent.TextBox.Text == "fanumtax" then
+			script.Parent.Parent.TextLabel.Text = "(Skibidi) is a song by Little Big that sparked a viral dance craze called the (Skibidi Challenge.)"
+			wait(5)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "Hello!" or
+			script.Parent.Parent.TextBox.Text == "hi!" or
+			script.Parent.Parent.TextBox.Text == "hi" or
+			script.Parent.Parent.TextBox.Text == "hello" then
+			script.Parent.Parent.TextLabel.Text = "Hi there! How can I help you today?"
+			wait(6)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "any esp scripts?" or
+			script.Parent.Parent.TextBox.Text == "can you give me a esp script?" or
+			script.Parent.Parent.TextBox.Text == "i need an esp script" then
+			script.Parent.Parent.TextLabel.Text = "i got UnNamedESP, lemme execute it rn"
+			wait(4)
+			script.Parent.Parent.TextLabel.Text = "Loading UnNamedESP..."
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = "UnNamedESP should be loaded now!"
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "any admin scripts?" or
+			script.Parent.Parent.TextBox.Text == "can you give me a admin script?" or
+			script.Parent.Parent.TextBox.Text == "i need an admin script" then
+			script.Parent.Parent.TextLabel.Text = "i got inf yield, lemme execute it rn"
+			wait(4)
+			script.Parent.Parent.TextLabel.Text = "Loading inf yield..."
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = "inf yield should be loaded now!"
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "tell me a knock knock joke" or
+			script.Parent.Parent.TextBox.Text == "can i hear a knock knock joke?" then
+			script.Parent.Parent.TextLabel.Text = "knock knock"
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "whos there?" or
+			script.Parent.Parent.TextBox.Text == "who's there?" then
+			script.Parent.Parent.TextLabel.Text = "ice cream"
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "ice cream who?" then
+			script.Parent.Parent.TextLabel.Text = "ICE CREAM SO YOU CAN HEAR ME!!"
+			wait(3)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "tell me another knock knock joke" or
+			script.Parent.Parent.TextBox.Text == "can i hear another knock knock joke?" then
+			script.Parent.Parent.TextLabel.Text = "knock knock"
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "whos there again?" or
+			script.Parent.Parent.TextBox.Text == "who's there again?" then
+			script.Parent.Parent.TextLabel.Text = "radio"
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "radio who?" then
+			script.Parent.Parent.TextLabel.Text = "Radio not, here i come"
+			wait(3)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "any blox fruits scripts?" or
+			script.Parent.Parent.TextBox.Text == "can you give me a blox fruits script?" or
+			script.Parent.Parent.TextBox.Text == "i need an blox fruits script" then
+			script.Parent.Parent.TextLabel.Text = "i got Mtriet Hub and Hoho Hub which one do you want?"
+			wait(4)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "any blade ball scripts?" or
+			script.Parent.Parent.TextBox.Text == "can you give me a blade ball script?" or
+			script.Parent.Parent.TextBox.Text == "i need an blade ball script" then
+			script.Parent.Parent.TextLabel.Text = "i've rachub lemme execute it rn (if script doesnt work, get an better executor)"
+			wait(3)
+			script.Parent.Parent.TextLabel.Text = "Loading RacHub..."
+			--remove key
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/doitenroi1/Main/main/RacHub.lua"))()
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = "RacHub loaded!"
+			wait(7)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "any Arsenal scripts?" or
+			script.Parent.Parent.TextBox.Text == "can you give me a Arsenal script?" or
+			script.Parent.Parent.TextBox.Text == "i need an Arsenal script" then
+			script.Parent.Parent.TextLabel.Text = "i've got Thunder client v2 lemme execute it rn"
+			wait(3)
+			script.Parent.Parent.TextLabel.Text = "Loading Thunder client v2..."
+			loadstring(game:HttpGet("https://scriptblox.com/raw/Arsenal-Thunder-Client-For-Solara-13092"))()
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = "Thunder client v2 loaded!"
+			wait(7)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "Hoho hub" or
+			script.Parent.Parent.TextBox.Text == "hoho hub" or
+			script.Parent.Parent.TextBox.Text == "Hoho Hub" then
+			script.Parent.Parent.TextLabel = "alrighty! loading Hoho Hub..."
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = "Hoho Hub loaded!"
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "Mtriet" or
+			script.Parent.Parent.TextBox.Text == "mtriet" or
+			script.Parent.Parent.TextBox.Text == "Mtriet hub" or
+			script.Parent.Parent.TextBox.Text == "mtriet hub" or
+			script.Parent.Parent.TextBox.Text == "Mtriet Hub" or
+			script.Parent.Parent.TextBox.Text == "mtriet Hub" then
+			script.Parent.Parent.TextLabel = "alrighty! loading Mtriet Hub..."
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/jebblox/scriptdatabase2/main/scripts/MTriet.lua"))()
+			wait(3)
+			script.Parent.Parent.TextLabel.Text = "Mtriet Hub loaded!"
+			wait(2)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "can you write an script that changes my speed?" or
+			script.Parent.Parent.TextBox.Text == "can you write an speed script?" or
+			script.Parent.Parent.TextBox.Text == "can u write an speed script?" or
+			script.Parent.Parent.TextBox.Text == "can you make an script that changes my speed?" or
+			script.Parent.Parent.TextBox.Text == "can u make an script that changes my speed?" or
+			script.Parent.Parent.TextBox.Text == "i need an code that changes my speed" then
+			script.Parent.Parent.TextLabel.Text = "Head to main.lua in exec page"
+			script.Parent.Parent.Parent.Parent.Exec.Main.ScrollingFrame.TextBox.Text = "game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value"
+			wait(3)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "can you write an script that changes my jump power?" or
+			script.Parent.Parent.TextBox.Text == "can you write an jump power script?" or
+			script.Parent.Parent.TextBox.Text == "can u write an jump power script?" or
+			script.Parent.Parent.TextBox.Text == "can you make an script that changes my jump power?" or
+			script.Parent.Parent.TextBox.Text == "can u make an script that changes my jump power?" or
+			script.Parent.Parent.TextBox.Text == "i need an code that changes my jump power" then
+			script.Parent.Parent.TextLabel.Text = "Head to main.lua in exec page"
+			script.Parent.Parent.Parent.Parent.Exec.Main.ScrollingFrame.TextBox.Text = "game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value"
+			wait(3)
+			script.Parent.Parent.TextLabel.Text = ""
+		end
+	end)
+end
+coroutine.wrap(HTEIZG_fake_script)()
+local function JORNZKJ_fake_script() -- Exec_2.LocalScript 
+	local script = Instance.new('LocalScript', Exec_2)
+
+	textbox = script.Parent.Parent.Main
+	button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+coroutine.wrap(JORNZKJ_fake_script)()
+local function NEOCKQX_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Main.Text = ""
+	end)
+end
+coroutine.wrap(NEOCKQX_fake_script)()
+local function GJKD_fake_script() -- Main.DragScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local a=game:GetService('UserInputService')local b=script.Parent;local c=nil;local d=0.25;local e=nil;local f=nil;local function g(a)local a=a.Position-e;local a=UDim2.new(f.X.Scale,f.X.Offset+a.X,f.Y.Scale,f.Y.Offset+a.Y)game:GetService('TweenService'):Create(b,TweenInfo.new(d),{Position=a}):Play()end;b.InputBegan:Connect(function(a)if(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Touch)then c=true;e=a.Position;f=b.Position;a.Changed:Connect(function()if a.UserInputState==Enum.UserInputState.End then c=false end end)end end)a.InputChanged:Connect(function(a)if a.UserInputType==Enum.UserInputType.MouseMovement or a.UserInputType==Enum.UserInputType.Touch then if c then g(a)end end end)
+end
+coroutine.wrap(GJKD_fake_script)()
+local function PKFUSOG_fake_script() -- Main.OpenCloseScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	local player = game.Players.LocalPlayer
+	local frame = script.Parent.Parent.Main
+	
+	UserInputService.InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Insert then
+			frame.Visible = not frame.Visible
+		end
+	end)
+end
+coroutine.wrap(PKFUSOG_fake_script)()
+local function ZFVNBJC_fake_script() -- AvaLogo.LocalScript 
+	local script = Instance.new('LocalScript', AvaLogo)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local imagelabel = script.Parent
+	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.AvatarBust,Enum.ThumbnailSize.Size100x100)
+end
+coroutine.wrap(ZFVNBJC_fake_script)()
+local function AIZDA_fake_script() -- Greeting.LocalScript 
+	local script = Instance.new('LocalScript', Greeting)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.Text = "Welcome "..player.DisplayName.."!!"
+end
+coroutine.wrap(AIZDA_fake_script)()
+local function OSRHJU_fake_script() -- UserId.LocalScript 
+	local script = Instance.new('LocalScript', UserId)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.Text = "UserId: "..game.Players.LocalPlayer.UserId
+end
+coroutine.wrap(OSRHJU_fake_script)()
+local function XZKZSN_fake_script() -- AccountDate.LocalScript 
+	local script = Instance.new('LocalScript', AccountDate)
+
+	local player = game.Players.LocalPlayer 
+	
+	script.Parent.Text = player.AccountAge
+end
+coroutine.wrap(XZKZSN_fake_script)()
+local function EIFJFPZ_fake_script() -- Thankssign.LocalScript 
+	local script = Instance.new('LocalScript', Thankssign)
+
+	script.Parent.Text = "Thank you for using Necomator, By NecoTeam"
+end
+coroutine.wrap(EIFJFPZ_fake_script)()
+local function LJYW_fake_script() -- OS_Date.LocalScript 
+	local script = Instance.new('LocalScript', OS_Date)
+
+	while true do
+		script.Parent.Text = os.date()
+		wait(1)
+		script.Parent.Text = os.date()
+	end
+end
+coroutine.wrap(LJYW_fake_script)()
+local function HLLODJ_fake_script() -- Dizzy.LocalScript 
+	local script = Instance.new('LocalScript', Dizzy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard("https://discord.gg/XDvE5wGHaU")
+	end)
+end
+coroutine.wrap(HLLODJ_fake_script)()
+local function KNSMR_fake_script() -- SpeedButton.LocalScript 
+	local script = Instance.new('LocalScript', SpeedButton)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.Character.Humanoid.WalkSpeed = script.Parent.Parent.SpeedBox.Text
+	end)
+end
+coroutine.wrap(KNSMR_fake_script)()
+local function JRMSB_fake_script() -- JumpButton.LocalScript 
+	local script = Instance.new('LocalScript', JumpButton)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.Character.Humanoid.JumpPower = script.Parent.Parent.JumpBox.Text
+	end)
+end
+coroutine.wrap(JRMSB_fake_script)()
+local function GOWF_fake_script() -- ESPButton.LocalScript 
+	local script = Instance.new('LocalScript', ESPButton)
+
+	-- LocalScript inside the ESPButton
+	
+	-- Variables
+	local espEnabled = false
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local localPlayer = players.LocalPlayer
+	local runService = game:GetService("RunService")
+	
+	-- Function to create a billboard GUI for ESP
+	local function createBillboard(player)
+		local billboard = Instance.new("BillboardGui")
+		billboard.Name = "ESP"
+		billboard.Adornee = player.Character.Head
+		billboard.Size = UDim2.new(2, 0, 2, 0)
+		billboard.StudsOffset = Vector3.new(0, 2, 0)
+		billboard.AlwaysOnTop = true
+	
+		local frame = Instance.new("Frame", billboard)
+		frame.Size = UDim2.new(1, 0, 1, 0)
+		frame.BackgroundTransparency = 0.5
+		frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		return billboard
+	end
+	
+	-- Function to toggle ESP
+	local function toggleESP()
+		espEnabled = not espEnabled
+		if espEnabled then
+			-- Enable ESP
+			for _, player in pairs(players:GetPlayers()) do
+				if player ~= localPlayer and player.Character and player.Character:FindFirstChild("Head") then
+					local esp = createBillboard(player)
+					esp.Parent = player.Character
+				end
+			end
+		else
+			-- Disable ESP
+			for _, player in pairs(players:GetPlayers()) do
+				if player ~= localPlayer and player.Character then
+					local esp = player.Character:FindFirstChild("ESP")
+					if esp then
+						esp:Destroy()
+					end
+				end
+			end
+		end
+	end
+	
+	-- Button click event
+	button.MouseButton1Click:Connect(toggleESP)
+	
+	-- Update ESP for new players joining
+	players.PlayerAdded:Connect(function(player)
+		player.CharacterAdded:Connect(function(character)
+			if espEnabled then
+				wait(1) -- Wait for character to load
+				local esp = createBillboard(player)
+				esp.Parent = character
+			end
+		end)
+	end)
+	
+end
+coroutine.wrap(GOWF_fake_script)()
+local function ODEZOC_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	_G.aimbot = false
+	local camera = game.Workspace.CurrentCamera
+	local localplayer = game:GetService("Players").LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.aimbot == false then
+			_G.aimbot = true
+			script.Parent.TextColor3 = Color3.fromRGB(0,95,5)
+			script.Parent.Text = "Aimbot = On"
+			function closestplayer()
+				local dist = math.huge -- math.huge means a really large number, 1M+.
+				local target = nil --- nil means no value
+				for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+					if v ~= localplayer then
+						if v.Character and v.Character:FindFirstChild("Head") and _G.aimbot and v.Character.Humanoid.Health > 0 then --- creating the checks
+							local magnitude = (v.Character.Head.Position - localplayer.Character.Head.Position).magnitude
+							if magnitude < dist then
+								dist = magnitude
+								target = v
+							end
+	
+						end
+					end
+				end
+				return target
+			end
+	
+		else
+			_G.aimbot = false
+			script.Parent.TextColor3 = Color3.fromRGB(0,95,5)
+			script.Parent.Text = "Aimbot = Off"
+		end
+	end)
+	
+	local settings = {
+		keybind = Enum.UserInputType.MouseButton2
+	}
+	
+	local UIS = game:GetService("UserInputService")
+	local aiming = false --- this toggle will make it so we lock on to the person when we press our keybind
+	
+	UIS.InputBegan:Connect(function(inp)
+		if inp.UserInputType == settings.keybind then
+			aiming = true
+		end
+	end)
+	
+	UIS.InputEnded:Connect(function(inp)
+		if inp.UserInputType == settings.keybind then ---- when we stop pressing the keybind it would unlock off the player
+			aiming = false
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if aiming then
+			camera.CFrame = CFrame.new(camera.CFrame.Position,closestplayer().Character.Head.Position) -- locks into the HEAD
+		end
+	end)
+end
+coroutine.wrap(ODEZOC_fake_script)()
+local function VOAANNZ_fake_script() -- NecoConsole.LocalScript 
+	local script = Instance.new('LocalScript', NecoConsole)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local NecomatorOutputGui = Instance.new("ScreenGui")
+		local Main = Instance.new("Frame")
+		local scroll = Instance.new("ScrollingFrame")
+		local Panel = Instance.new("Frame")
+		local TextLabel = Instance.new("TextLabel")
+		local ImageLabel = Instance.new("ImageLabel")
+		local blankLine = Instance.new("TextLabel")
+	
+		--Properties:
+	
+		NecomatorOutputGui.Name = "NecomatorOutputGui"
+		NecomatorOutputGui.Parent = game.CoreGui
+		NecomatorOutputGui.ResetOnSpawn = false
+	
+		Main.Name = "Main"
+		Main.Parent = NecomatorOutputGui
+		Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Main.BackgroundTransparency = 0.500
+		Main.BorderColor3 = Color3.fromRGB(0, 95, 5)
+		Main.BorderSizePixel = 2
+		Main.Position = UDim2.new(0, 604, 0, 294)
+		Main.Size = UDim2.new(0, 467, 0, 275)
+	
+		scroll.Name = "scroll"
+		scroll.Parent = Main
+		scroll.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+		scroll.BorderColor3 = Color3.fromRGB(0, 95, 5)
+		scroll.BorderSizePixel = 2
+		scroll.Position = UDim2.new(0.000658186385, 0, 0.170909092, 0)
+		scroll.Size = UDim2.new(0, 466, 0, 228)
+		scroll.ZIndex = 9
+		scroll.BottomImage = "rbxassetid://185945953"
+		scroll.CanvasSize = UDim2.new(0, 0, 0, 0)
+		scroll.MidImage = "rbxassetid://185945953"
+		scroll.ScrollBarThickness = 10
+		scroll.TopImage = "rbxassetid://185945953"
+	
+		Panel.Name = "Panel"
+		Panel.Parent = Main
+		Panel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Panel.BorderColor3 = Color3.fromRGB(0, 95, 5)
+		Panel.BorderSizePixel = 2
+		Panel.Position = UDim2.new(0, -1, 0, 0)
+		Panel.Size = UDim2.new(0, 467, 0, 47)
+	
+		TextLabel.Parent = Panel
+		TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.BackgroundTransparency = 1.000
+		TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel.BorderSizePixel = 0
+		TextLabel.Position = UDim2.new(0.239828691, 0, -0.0638297871, 0)
+		TextLabel.Size = UDim2.new(0, 244, 0, 50)
+		TextLabel.Font = Enum.Font.FredokaOne
+		TextLabel.Text = "Necomator Console"
+		TextLabel.TextColor3 = Color3.fromRGB(0, 95, 5)
+		TextLabel.TextScaled = true
+		TextLabel.TextSize = 14.000
+		TextLabel.TextWrapped = true
+	
+		ImageLabel.Parent = Panel
+		ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ImageLabel.BackgroundTransparency = 1.000
+		ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ImageLabel.BorderSizePixel = 0
+		ImageLabel.Size = UDim2.new(0, 47, 0, 47)
+		ImageLabel.Image = "rbxassetid://17774105592"
+	
+		blankLine.Name = "blankLine"
+		blankLine.Parent = game.StarterGui.NecomatorOutputGui.Main.outputUpdate
+		blankLine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		blankLine.BackgroundTransparency = 1.000
+		blankLine.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		blankLine.BorderSizePixel = 0
+		blankLine.ZIndex = 10
+		blankLine.Font = Enum.Font.ArialBold
+		blankLine.Text = ""
+		blankLine.TextColor3 = Color3.fromRGB(0, 0, 0)
+		blankLine.TextSize = 18.000
+		blankLine.TextXAlignment = Enum.TextXAlignment.Left
+	
+		-- Scripts:
+	
+		local function RUFBI_fake_script() -- Main.DragScript 
+			local script = Instance.new('LocalScript', Main)
+	
+			local a=game:GetService('UserInputService')local b=script.Parent;local c=nil;local d=0.25;local e=nil;local f=nil;local function g(a)local a=a.Position-e;local a=UDim2.new(f.X.Scale,f.X.Offset+a.X,f.Y.Scale,f.Y.Offset+a.Y)game:GetService('TweenService'):Create(b,TweenInfo.new(d),{Position=a}):Play()end;b.InputBegan:Connect(function(a)if(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Touch)then c=true;e=a.Position;f=b.Position;a.Changed:Connect(function()if a.UserInputState==Enum.UserInputState.End then c=false end end)end end)a.InputChanged:Connect(function(a)if a.UserInputType==Enum.UserInputType.MouseMovement or a.UserInputType==Enum.UserInputType.Touch then if c then g(a)end end end)
+		end
+		coroutine.wrap(RUFBI_fake_script)()
+		local function MQJLY_fake_script() -- Main.outputUpdate 
+			local script = Instance.new('LocalScript', Main)
+	
+			-- All credits goes to: DoctorKuro --
+			-- Do not Steal this Please --
+	
+			local colors = {
+				[Enum.MessageType.MessageOutput] = BrickColor.new("Black").Color;
+				[Enum.MessageType.MessageInfo] = BrickColor.new("Bright blue").Color;
+				[Enum.MessageType.MessageWarning] =	BrickColor.new("Bright yellow").Color;
+				[Enum.MessageType.MessageError]	 = BrickColor.new("Bright red").Color;
+			}
+			local canvasX = 0
+	
+			game:getService("LogService").MessageOut:connect(function(output, messageType)
+				local newLine = script.blankLine:clone()
+				newLine.TextColor3 = colors[messageType]
+				newLine.Position = UDim2.new(0, 5, 0, (#script.Parent.scroll:getChildren() * 15))
+				newLine.Text = output
+				newLine.Name = tick()
+				newLine.Parent = script.Parent.scroll
+				newLine.Size = UDim2.new(0, (#output * 10), 0, 15)
+				canvasX = (canvasX > (#output * 10) and canvasX or (#output * 10)) --dont use newLine.TextBounds.X outside of a local script
+				script.Parent.scroll.CanvasSize = UDim2.new(0, (canvasX + 10), 0, ((#script.Parent.scroll:getChildren() + 1) * 15))
+			end)
+		end
+		coroutine.wrap(MQJLY_fake_script)()
+	end)
+end
+coroutine.wrap(VOAANNZ_fake_script)()
+-- Loading50284734.Script is disabled.
+local function TRLFWHF_fake_script() -- Loading50284734.LocalScript 
+	local script = Instance.new('LocalScript', Loading50284734)
+
+	wait(3)
+	script.Parent:TweenSize(UDim2.new(0,268,0,258), "Out", "Quad", 0.5)
+	wait(0.5)
+	script.Parent.ImageLabel.ImageTransparency = 0.9
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0.8
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0.7
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0.6
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0.5
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0.4
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0.3
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0.2
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0.1
+	wait(0)
+	script.Parent.ImageLabel.ImageTransparency = 0
+	wait(1)
+	if game.Players.LocalPlayer.UserId == 4453069109 then
+		script.Parent.ImageLabel.ImageTransparency = 0.1
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 0.2
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 0.3
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 0.4
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 0.5
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 0.6
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 0.7
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 0.8
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 0.9
+		wait(0)
+		script.Parent.ImageLabel.ImageTransparency = 1
+		wait(0.3)
+		script.Parent.Transparency = 0.1
+		wait(0)
+		script.Parent.Transparency = 0.2
+		wait(0)
+		script.Parent.Transparency = 0.3
+		wait(0)
+		script.Parent.Transparency = 0.4
+		wait(0)
+		script.Parent.Transparency = 0.5
+		wait(0)
+		script.Parent.Transparency = 0.6
+		wait(0)
+		script.Parent.Transparency = 0.7
+		wait(0)
+		script.Parent.Transparency = 0.8
+		wait(0)
+		script.Parent.Transparency = 0.9
+		wait(0)
+		script.Parent.Transparency = 1
+		wait(0.4)
+		script.Parent.Parent.Loading435234583.Visible = true
+	else
+		game.StarterGui:SetCore("SendNotification",{
+			Title = "Access Denied";
+			Text = "u cant skid, pay or gay 😈";
+			Icon = "";
+		})
+		wait(1.5)
+		script.Parent.Parent:Destroy()
+	end
+	
+end
+coroutine.wrap(TRLFWHF_fake_script)()
+local function GNKY_fake_script() -- Startbro.LocalScript 
+	local script = Instance.new('LocalScript', Startbro)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Transparency = 0.1
+		wait(0)
+		script.Parent.Transparency = 0.2
+		wait(0)
+		script.Parent.Transparency = 0.3
+		wait(0)
+		script.Parent.Transparency = 0.4
+		wait(0)
+		script.Parent.Transparency = 0.5
+		wait(0)
+		script.Parent.Transparency = 0.6
+		wait(0)
+		script.Parent.Transparency = 0.7
+		wait(0)
+		script.Parent.Transparency = 0.8
+		wait(0)
+		script.Parent.Transparency = 0.9
+		wait(0)
+		script.Parent.Transparency = 1
+		wait(1)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.9
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.8
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.7
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.6
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.5
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.4
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.3
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.2
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0.1
+		wait(0)
+		script.Parent.Parent.ImageLabel.ImageTransparency = 0
+		wait(1)
+		script.Parent.Parent.LoadingBar:TweenSize(UDim2.new(0,517,0,45), "Out", "Quad", 0.8)
+		wait(1)
+		script.Parent.Parent.LoadingBar.Loading:TweenSize(UDim2.new(0,517,0,33), "Out", "Quad", 2.4)
+		wait(2)
+		if game.Players.LocalPlayer.UserId == 4453069109 then
+			wait(1.5)
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/MrGreen3169/MoreUNC/main/UNC"))()
+			script.Parent.Parent.Parent.Main.Visible = true
+			script.Parent.Parent.Visible = false
+		else
+			game.StarterGui:SetCore("SendNotification",{
+				Title = "Access Denied";
+				Text = "u skid u will get blacklisted if u do it again";
+				Icon = "";
+			})
+			wait(1.5)
+			script.Parent.Parent.Parent:Destroy()
+		end
+	end)
+end
+coroutine.wrap(GNKY_fake_script)()
+local function KKOZB_fake_script() -- Loading435234583.DragScript 
+	local script = Instance.new('LocalScript', Loading435234583)
+
+	local a=game:GetService('UserInputService')local b=script.Parent;local c=nil;local d=0.25;local e=nil;local f=nil;local function g(a)local a=a.Position-e;local a=UDim2.new(f.X.Scale,f.X.Offset+a.X,f.Y.Scale,f.Y.Offset+a.Y)game:GetService('TweenService'):Create(b,TweenInfo.new(d),{Position=a}):Play()end;b.InputBegan:Connect(function(a)if(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Touch)then c=true;e=a.Position;f=b.Position;a.Changed:Connect(function()if a.UserInputState==Enum.UserInputState.End then c=false end end)end end)a.InputChanged:Connect(function(a)if a.UserInputType==Enum.UserInputType.MouseMovement or a.UserInputType==Enum.UserInputType.Touch then if c then g(a)end end end)
+end
+coroutine.wrap(KKOZB_fake_script)()
